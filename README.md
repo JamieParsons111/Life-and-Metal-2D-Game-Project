@@ -1,2 +1,4 @@
-# The-Game-of-game-gam-game-thing
-Game with Unity thing, for thing, with thing and thing
+Life and Metal: 2D Game Project
+
+-Made in Godot Engine
+-Used Gimp For pixel art creation

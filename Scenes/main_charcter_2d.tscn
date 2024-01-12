@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cg3sxwnu3ipre"]
+
+[ext_resource type="Texture2D" uid="uid://c5om6gs2krtyb" path="res://Downloaded images/Free/Main Characters/Virtual Guy/Jump (32x32).png" id="1_n32ib"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_impkj"]
+size = Vector2(19.5632, 26.6667)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(53, 439)
+scale = Vector2(2.71875, 3)
+texture = ExtResource("1_n32ib")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D"]
+position = Vector2(-0.218391, 2.33333)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_impkj")
